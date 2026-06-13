@@ -25,7 +25,7 @@ jobs:
       - name: Setup Java JDK
         uses: actions/setup-java@v5.2.0
         with:
-              java-version: 21
+              java-version: 8
               distribution: temurin
       # Runs a single command using the runners shell
       - name: Run a one-line script
